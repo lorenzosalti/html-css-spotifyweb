@@ -25,6 +25,14 @@ main .container {
     width: 55px;
     flex-shrink: 0;
     background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#control-bar .spotify .logo-big {
+    display: none;
 }
 
 #main-header {
