@@ -54,6 +54,10 @@ main .container {
     color: #ffffff;
 }
 
+#control-bar .actions {
+    margin-bottom: 50px;
+}
+
 #control-bar .actions li {
     /* padding: 0 13px; */
     border: 2px solid #000000;
@@ -62,22 +66,39 @@ main .container {
 }
 
 #control-bar .actions li img {
-    max-width: 100px;
+    max-width: 70px;
 }
 
 /* #control-bar .actions li.home {
     border-left: 2px solid #b1f747;
 } */
 
+#control-bar .playlists h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
 #control-bar .playlists .button .add {
     display: inline-block;
     padding: 35px;
     background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+#control-bar .playlists li {
+    margin-bottom: 25px;
+}
+
+#control-bar .playlists .button,
+#control-bar .playlists ul {
+    opacity: 60%;
 }
 
 #control-bar .download {
     /* padding: 15px; */
     opacity: 60%;
+    margin-bottom: 15px;
 }
 
 #control-bar .download img {
@@ -162,6 +183,24 @@ footer {
     #control-bar img,
     #control-bar span {
         vertical-align: middle;
+    }
+
+    #control-bar .download {
+        margin-bottom: 30px;
+    }
+
+    #control-bar .download img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #control-bar .user {
+        border-top: 3px solid #9a9a9a;
+    }
+
+    #control-bar .user img {
+        height: 60px;
+        width: 60px;
     }
 
     #control-bar .spotify .logo-big,
