@@ -1,6 +1,57 @@
-/* RESET */
+/*** RESET ***/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*** GLOBAL ***/
+body {
+    height: 100vh;
+}
+
+/*** MAIN ***/
+main {
+    height: calc(100% - 90px);
+    width: 100%;
+    display: flex;
+}
+
+main .container {
+    flex-grow: 1;
+}
+
+#control-bar {
+    width: 55px;
+    flex-shrink: 0;
+    background-color: #000000;
+}
+
+#main-header {
+    height: 90px;
+    background-color: #10151b;
+}
+
+#main-body {
+    height: calc(100% - 90px);
+    background-color: #151922;
+}
+
+/*** FOOTER ***/
+footer {
+    height: 90px;
+    background-color: #282828;
+}
+
+
+
+
+/* DEBUG */
+
+body {
+    background-color: yellowgreen;
+}
+
+main {
+    background-color: aquamarine;
 }
