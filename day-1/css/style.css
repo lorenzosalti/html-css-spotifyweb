@@ -10,6 +10,11 @@ body {
     height: 100vh;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 /*** MAIN ***/
 main {
     height: calc(100% - 90px);
@@ -31,7 +36,12 @@ main .container {
     justify-content: space-between;
 }
 
-#control-bar .spotify .logo-big {
+#control-bar .spotify .logo-big,
+#control-bar .actions li span,
+#control-bar .playlists,
+#control-bar .download span,
+#control-bar .user span,
+#control-bar .control-foot hr {
     display: none;
 }
 
