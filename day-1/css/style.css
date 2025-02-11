@@ -8,6 +8,8 @@
 /*** GLOBAL ***/
 body {
     height: 100vh;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
 }
 
 img {
