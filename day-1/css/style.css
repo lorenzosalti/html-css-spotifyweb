@@ -186,7 +186,7 @@ footer {
     }
 
     #control-bar .download {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     #control-bar .download img {
@@ -196,6 +196,7 @@ footer {
 
     #control-bar .user {
         border-top: 3px solid #9a9a9a;
+        padding-top: 20px;
     }
 
     #control-bar .user img {
