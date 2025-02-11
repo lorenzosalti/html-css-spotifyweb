@@ -34,6 +34,43 @@ main .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* padding: 13px 13px 20px; */
+    /* align-items: center; */
+}
+
+#control-bar .spotify {
+    padding: 13px;
+    margin-bottom: 15px;
+}
+
+#control-bar .actions li {
+    list-style-type: none;
+    padding: 0 13px;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+    opacity: 50%;
+    max-width: 100px;
+}
+
+#control-bar .actions li.home {
+    border-left: 2px solid #b1f747;
+}
+
+#control-bar .download {
+    margin: 0 auto 15px;
+    max-width: 26px;
+    opacity: 60%;
+}
+
+#control-bar .user {
+    padding: 0 13px 20px;
+}
+
+#control-bar .user img {
+    background-color: #666666;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 #control-bar .spotify .logo-big,
@@ -59,17 +96,4 @@ main .container {
 footer {
     height: 90px;
     background-color: #282828;
-}
-
-
-
-
-/* DEBUG */
-
-body {
-    background-color: yellowgreen;
-}
-
-main {
-    background-color: aquamarine;
 }
