@@ -17,7 +17,9 @@ img {
     width: 100%;
 }
 
-/*** MAIN ***/
+/*** CONTENITORE LARGE ***/
+
+/* CONTOL BAR */
 .container-lg {
     height: calc(100% - 90px);
     width: 100%;
@@ -91,7 +93,7 @@ img {
     border-left: 2px solid #b1f747;
 }
 
-/* sezione playlist della barra */
+/* playlist */
 #control-bar .playlists h4 {
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -115,6 +117,7 @@ img {
 }
 
 /* piede della barra di controllo */
+/* download */
 #control-bar .download {
     margin-top: auto;
     padding: 20px 13px;
@@ -126,6 +129,7 @@ img {
     height: 25px;
 }
 
+/* profilo */
 #control-bar .user {
     padding: 0 13px 20px;
 }
@@ -152,6 +156,8 @@ img {
     background-color: #10151b;
 }
 
+
+
 /*** FOOTER ***/
 footer {
     height: 90px;
@@ -166,16 +172,20 @@ footer {
     #control-bar {
         width: 230px;
         align-items: flex-start;
-        /* padding: 30px 20px; */
     }
 
     #control-bar img {
         display: inline-block;
     }
 
+    #control-bar img,
+    #control-bar span {
+        vertical-align: middle;
+    }
+
+    /* logo */
     #control-bar .spotify {
         padding: 20px;
-        /* margin-bottom: 30px; */
     }
 
     #control-bar .spotify img {
@@ -186,11 +196,15 @@ footer {
         display: none;
     }
 
-    #control-bar img,
-    #control-bar span {
-        vertical-align: middle;
+    /* menu */
+    #control-bar .actions li {
+        padding: 6px 20px;
+        border: 2px solid #000000;
+        opacity: 50%;
+        width: 100%;
     }
 
+    /* download */
     #control-bar .download {
         margin-bottom: 20px;
     }
@@ -200,6 +214,7 @@ footer {
         height: 50px;
     }
 
+    /* profilo */
     #control-bar .user {
         border-top: 3px solid #9a9a9a;
         padding-top: 20px;
@@ -210,6 +225,7 @@ footer {
         width: 60px;
     }
 
+    /* elementi nascosti */
     #control-bar .spotify .logo-big,
     #control-bar .actions li span,
     #control-bar .playlists,
