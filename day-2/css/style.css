@@ -26,11 +26,6 @@ img {
     display: flex;
 }
 
-.container {
-    flex-grow: 1;
-    background-color: #151922;
-}
-
 #control-bar {
     flex-shrink: 0;
     background-color: #000000;
@@ -158,9 +153,27 @@ img {
 }
 
 /* MAIN */
+main {
+    flex-grow: 1;
+    color: #ffffff;
+    background-color: #151922;
+    font-size: 12px;
+}
+
 #main-header {
     height: 90px;
     background-color: #10151b;
+    padding: 20px;
+    padding-left: auto;
+}
+
+#main-header .upgrade {
+    width: fit-content;
+    padding: 13px 40px;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+    border-radius: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -176,6 +189,7 @@ footer {
 /* small */
 @media screen and (min-width: 576px) {
 
+    /* BARRA DI CONTROLLO LATERALE */
     #control-bar {
         width: 230px;
         align-items: flex-start;
