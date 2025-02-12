@@ -114,7 +114,10 @@ li {
 }
 
 #control-bar .playlists .button,
-#control-bar .playlists ul {
+#control-bar .playlists ul,
+#main-header,
+main h4,
+main h5 {
     opacity: 60%;
 }
 
@@ -163,10 +166,13 @@ main {
 
 /* header */
 #main-header {
-    height: 90px;
-    background-color: #10151b;
+    background-color: #000000;
     padding: 20px;
     padding-left: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 #main-header .upgrade {
