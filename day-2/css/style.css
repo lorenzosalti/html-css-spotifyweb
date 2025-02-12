@@ -18,14 +18,15 @@ img {
 }
 
 /*** MAIN ***/
-main {
+.container-lg {
     height: calc(100% - 90px);
     width: 100%;
     display: flex;
 }
 
-main .container {
+.container {
     flex-grow: 1;
+    background-color: #151922;
 }
 
 #control-bar {
@@ -130,11 +131,6 @@ main .container {
     background-color: #10151b;
 }
 
-#main-body {
-    height: calc(100% - 90px);
-    background-color: #151922;
-}
-
 /*** FOOTER ***/
 footer {
     height: 90px;
@@ -146,24 +142,8 @@ footer {
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
 
-    main {
-        height: calc(100% - 172px);
-    }
-
-    footer {
-        height: 172px;
-    }
-
-    #main-header {
-        height: 172px;
-    }
-
-    #main-body {
-        height: calc(100% - 172px);
-    }
-
     #control-bar {
-        width: 455px;
+        width: 230px;
         padding: 30px 20px;
     }
 
@@ -216,11 +196,3 @@ footer {
 
 
 /* DEBUG */
-
-body {
-    background-color: yellowgreen;
-}
-
-main {
-    background-color: aquamarine;
-}
