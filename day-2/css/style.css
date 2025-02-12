@@ -23,6 +23,10 @@ a {
     color: #ffffff;
 }
 
+li {
+    list-style-type: none;
+}
+
 /*** CONTENITORE LARGE ***/
 
 /* CONTOL BAR */
@@ -40,10 +44,6 @@ a {
     flex-direction: column;
     align-items: center;
     font-size: 15px;
-}
-
-#control-bar li {
-    list-style-type: none;
 }
 
 #control-bar li img {
@@ -160,6 +160,7 @@ main {
     font-size: 12px;
 }
 
+/* header */
 #main-header {
     height: 90px;
     background-color: #10151b;
@@ -177,7 +178,14 @@ main {
     text-transform: uppercase;
 }
 
-
+/* contenuto principale */
+#top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
 /*** FOOTER ***/
 footer {
