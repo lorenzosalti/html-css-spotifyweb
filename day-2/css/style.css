@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    /* display: block; */
+    display: block;
     width: 100%;
 }
 
@@ -30,24 +30,40 @@ img {
 }
 
 #control-bar {
-    width: 55px;
+    /* width: 55px; */
     flex-shrink: 0;
     background-color: #000000;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 13px;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 20px 13px; */
     font-size: 28px;
 }
 
+/* #control-bar .control-foot {
+    margin-top: auto;
+    padding: 20px 13px;
+} */
+
 #control-bar .spotify {
-    /* padding: 13px; */
+    padding: 13px 13px 0;
     margin-bottom: 15px;
 }
 
+#control-bar .spotify img {
+    width: 28px;
+}
+
+
 #control-bar li {
     list-style-type: none;
+    padding: 0 6px;
+}
+
+#control-bar li img {
+    width: 25px;
 }
 
 #control-bar a {
@@ -74,6 +90,7 @@ img {
     border-left: 2px solid #b1f747;
 } */
 
+/* sezione playlist della barra */
 #control-bar .playlists h4 {
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -96,10 +113,11 @@ img {
     opacity: 60%;
 }
 
+/* piede della barra di controllo */
 #control-bar .download {
-    /* padding: 15px; */
+    margin-top: auto;
+    padding: 20px 13px;
     opacity: 60%;
-    margin-bottom: 15px;
 }
 
 #control-bar .download img {
@@ -107,9 +125,9 @@ img {
     height: 22px;
 }
 
-/* #control-bar .user {
+#control-bar .user {
     padding: 0 13px 20px;
-} */
+}
 
 #control-bar .user img {
     background-color: #666666;
@@ -118,6 +136,7 @@ img {
     border-radius: 50%;
 }
 
+/* elementi nascosti */
 #control-bar .spotify .logo-big,
 #control-bar .actions li span,
 #control-bar .playlists,
@@ -126,6 +145,7 @@ img {
     display: none;
 }
 
+/* MAIN */
 #main-header {
     height: 90px;
     background-color: #10151b;
@@ -139,8 +159,8 @@ footer {
 
 
 /*** MEDIA QUERY ***/
-/* DESKTOP */
-@media screen and (min-width: 1200px) {
+/* small */
+@media screen and (min-width: 576px) {
 
     #control-bar {
         width: 230px;
