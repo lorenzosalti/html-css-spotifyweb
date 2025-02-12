@@ -39,7 +39,7 @@ img {
     align-items: center;
     /* justify-content: space-between; */
     /* padding: 20px 13px; */
-    font-size: 28px;
+    font-size: 15px;
 }
 
 /* #control-bar .control-foot {
@@ -59,7 +59,6 @@ img {
 
 #control-bar li {
     list-style-type: none;
-    padding: 0 6px;
 }
 
 #control-bar li img {
@@ -72,14 +71,20 @@ img {
 }
 
 #control-bar .actions {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#control-bar .actions ul {
+    width: 100%;
 }
 
 #control-bar .actions li {
-    /* padding: 0 13px; */
+    padding: 5px 13px;
     border: 2px solid #000000;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     opacity: 50%;
+    width: 100%;
 }
 
 #control-bar .actions li img {
@@ -121,8 +126,8 @@ img {
 }
 
 #control-bar .download img {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
 }
 
 #control-bar .user {
@@ -164,7 +169,8 @@ footer {
 
     #control-bar {
         width: 230px;
-        padding: 30px 20px;
+        align-items: flex-start;
+        /* padding: 30px 20px; */
     }
 
     #control-bar img {
@@ -172,8 +178,12 @@ footer {
     }
 
     #control-bar .spotify {
-        padding: 25px;
-        margin-bottom: 30px;
+        padding: 20px;
+        /* margin-bottom: 30px; */
+    }
+
+    #control-bar .spotify img {
+        width: 130px;
     }
 
     #control-bar .spotify .logo-small {
