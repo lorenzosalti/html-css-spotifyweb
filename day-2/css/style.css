@@ -1,0 +1,226 @@
+/*** RESET ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** GLOBAL ***/
+body {
+    height: 100vh;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+
+img {
+    /* display: block; */
+    width: 100%;
+}
+
+/*** MAIN ***/
+main {
+    height: calc(100% - 90px);
+    width: 100%;
+    display: flex;
+}
+
+main .container {
+    flex-grow: 1;
+}
+
+#control-bar {
+    width: 55px;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 13px;
+    font-size: 28px;
+}
+
+#control-bar .spotify {
+    /* padding: 13px; */
+    margin-bottom: 15px;
+}
+
+#control-bar li {
+    list-style-type: none;
+}
+
+#control-bar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#control-bar .actions {
+    margin-bottom: 50px;
+}
+
+#control-bar .actions li {
+    /* padding: 0 13px; */
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+
+#control-bar .actions li img {
+    max-width: 70px;
+}
+
+/* #control-bar .actions li.home {
+    border-left: 2px solid #b1f747;
+} */
+
+#control-bar .playlists h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#control-bar .playlists .button .add {
+    display: inline-block;
+    padding: 35px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+#control-bar .playlists li {
+    margin-bottom: 25px;
+}
+
+#control-bar .playlists .button,
+#control-bar .playlists ul {
+    opacity: 60%;
+}
+
+#control-bar .download {
+    /* padding: 15px; */
+    opacity: 60%;
+    margin-bottom: 15px;
+}
+
+#control-bar .download img {
+    width: 22px;
+    height: 22px;
+}
+
+/* #control-bar .user {
+    padding: 0 13px 20px;
+} */
+
+#control-bar .user img {
+    background-color: #666666;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#control-bar .spotify .logo-big,
+#control-bar .actions li span,
+#control-bar .playlists,
+#control-bar .download span,
+#control-bar .user span {
+    display: none;
+}
+
+#main-header {
+    height: 90px;
+    background-color: #10151b;
+}
+
+#main-body {
+    height: calc(100% - 90px);
+    background-color: #151922;
+}
+
+/*** FOOTER ***/
+footer {
+    height: 90px;
+    background-color: #282828;
+}
+
+
+/*** MEDIA QUERY ***/
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+
+    main {
+        height: calc(100% - 172px);
+    }
+
+    footer {
+        height: 172px;
+    }
+
+    #main-header {
+        height: 172px;
+    }
+
+    #main-body {
+        height: calc(100% - 172px);
+    }
+
+    #control-bar {
+        width: 455px;
+        padding: 30px 20px;
+    }
+
+    #control-bar img {
+        display: inline-block;
+    }
+
+    #control-bar .spotify {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    #control-bar .spotify .logo-small {
+        display: none;
+    }
+
+    #control-bar img,
+    #control-bar span {
+        vertical-align: middle;
+    }
+
+    #control-bar .download {
+        margin-bottom: 20px;
+    }
+
+    #control-bar .download img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #control-bar .user {
+        border-top: 3px solid #9a9a9a;
+        padding-top: 20px;
+    }
+
+    #control-bar .user img {
+        height: 60px;
+        width: 60px;
+    }
+
+    #control-bar .spotify .logo-big,
+    #control-bar .actions li span,
+    #control-bar .playlists,
+    #control-bar .download span,
+    #control-bar .user span {
+        display: initial;
+    }
+
+}
+
+
+/* DEBUG */
+
+body {
+    background-color: yellowgreen;
+}
+
+main {
+    background-color: aquamarine;
+}
