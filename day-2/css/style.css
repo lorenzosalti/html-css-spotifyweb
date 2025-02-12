@@ -297,6 +297,24 @@ footer {
 
 }
 
+/* medium */
+@media screen and (min-width: 768px) {
+
+    main .recent .album {
+        width: calc(100% / 4 - 10px);
+    }
+
+}
+
+/* large */
+@media screen and (min-width: 992px) {
+
+    main .recent .album {
+        width: calc(100% / 6 - 10px);
+    }
+
+}
+
 
 /* DEBUG */
 
