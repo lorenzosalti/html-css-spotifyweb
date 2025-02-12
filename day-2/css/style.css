@@ -30,32 +30,14 @@ img {
 }
 
 #control-bar {
-    /* width: 55px; */
     flex-shrink: 0;
     background-color: #000000;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
-    /* padding: 20px 13px; */
     font-size: 15px;
 }
-
-/* #control-bar .control-foot {
-    margin-top: auto;
-    padding: 20px 13px;
-} */
-
-#control-bar .spotify {
-    padding: 13px 13px 0;
-    margin-bottom: 15px;
-}
-
-#control-bar .spotify img {
-    width: 28px;
-}
-
 
 #control-bar li {
     list-style-type: none;
@@ -70,6 +52,17 @@ img {
     color: #ffffff;
 }
 
+/* logo */
+#control-bar .spotify {
+    padding: 13px 13px 0;
+    margin-bottom: 15px;
+}
+
+#control-bar .spotify img {
+    width: 28px;
+}
+
+/* menu */
 #control-bar .actions {
     margin-bottom: 30px;
     width: 100%;
@@ -82,18 +75,21 @@ img {
 #control-bar .actions li {
     padding: 5px 13px;
     border: 2px solid #000000;
-    /* margin-bottom: 10px; */
     opacity: 50%;
     width: 100%;
+}
+
+#control-bar .actions li:hover {
+    border-left: 2px solid #b1f747;
 }
 
 #control-bar .actions li img {
     max-width: 70px;
 }
 
-/* #control-bar .actions li.home {
+#control-bar .actions li.home {
     border-left: 2px solid #b1f747;
-} */
+}
 
 /* sezione playlist della barra */
 #control-bar .playlists h4 {
