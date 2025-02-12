@@ -158,6 +158,7 @@ main {
     color: #ffffff;
     background-color: #151922;
     font-size: 12px;
+    overflow: auto;
 }
 
 /* header */
@@ -189,6 +190,7 @@ main {
 
 main h2 {
     margin-bottom: 25px;
+    font-size: 26px;
 }
 
 main .collection {
@@ -202,17 +204,21 @@ main .recent {
 }
 
 main .recent .album {
-    background-color: gold;
+    /* background-color: gold; */
     text-align: center;
     margin: 5px;
     width: calc(100% / 2 - 10px);
     flex-shrink: 0;
 }
 
-main .recent .immagine {
-    width: 100%;
-    height: 150px;
-    background-color: cadetblue;
+main .recent .album img {
+    margin-bottom: 18px;
+}
+
+main .recent .album h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 /*** FOOTER ***/
@@ -317,4 +323,3 @@ footer {
 
 
 /* DEBUG */
-
