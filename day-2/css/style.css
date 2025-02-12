@@ -194,6 +194,22 @@ main {
     padding: 20px;
 }
 
+#top-menu li a {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#top-menu li .underline {
+    width: 30px;
+    height: 2px;
+    background-color: #151922;
+    margin: 0 auto;
+}
+
+#top-menu li:hover .underline {
+    background-color: #b1f747;
+}
+
 main h2 {
     margin-bottom: 10px;
     font-size: 26px;
@@ -329,7 +345,7 @@ footer {
 /* medium */
 @media screen and (min-width: 768px) {
 
-    main .recent .album {
+    main .album {
         width: calc(100% / 4 - 10px);
     }
 
@@ -338,7 +354,7 @@ footer {
 /* large */
 @media screen and (min-width: 992px) {
 
-    main .recent .album {
+    main .album {
         width: calc(100% / 6 - 10px);
     }
 
