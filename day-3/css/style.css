@@ -52,6 +52,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     font-size: 15px;
+    overflow-y: scroll;
 }
 
 #control-bar li img {
@@ -84,16 +85,13 @@ button:hover {
     width: 100%;
 }
 
-/* #control-bar .actions li:hover {
-    border-left: 2px solid #b1f747;
-} */
-
 #control-bar .actions li img {
     max-width: 70px;
 }
 
 #control-bar .actions li.home {
     border-left: 2px solid #b1f747;
+    opacity: 100%;
 }
 
 /* playlist */
@@ -215,6 +213,10 @@ main {
     align-items: center;
 }
 
+#top-menu li.highlight {
+    opacity: 100%;
+}
+
 #top-menu li a::after {
     content: '';
     display: none;
@@ -332,16 +334,30 @@ footer {
 
 footer .bar {
     position: relative;
+    border-radius: 5px;
 }
 
 footer .bar::after {
     content: '';
     display: inline-block;
     height: 4px;
+    border-radius: 5px;
     background-color: #ffffff;
     position: absolute;
     top: 0;
     bottom: 0;
+}
+
+footer .bar-hover {
+    position: absolute;
+    top: -4px;
+    left: 34px;
+    background-color: #ffffff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: none;
+    z-index: 2;
 }
 
 /* track info */
@@ -412,7 +428,11 @@ footer .media {
 }
 
 #track-bar .bar::after {
-    width: 70px;
+    width: 40%;
+}
+
+#track-bar .bar-hover {
+    left: calc(40% - 6px);
 }
 
 /* device options */
@@ -456,6 +476,10 @@ footer .bar:hover {
 
 footer .bar:hover::after{
     background-color: #b1f747;
+}
+
+footer .bar:hover .bar-hover {
+    display: inline-block;
 }
 
 
@@ -611,6 +635,3 @@ footer .bar:hover::after{
     }
 
 }
-
-
-/* DEBUG */
