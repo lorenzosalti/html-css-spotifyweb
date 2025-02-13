@@ -310,12 +310,12 @@ footer {
 
 footer .device-options {
     background-color: #59C3C3;
-    width: 20%;
+    /* width: 20%; */
     padding: 10px;
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     font-size: 14px;
 }
 
@@ -416,6 +416,16 @@ footer .media {
         width: 25px;
     }
 
+    /* FOOTER */
+    /* device options */
+    footer .device-options {
+        gap: 10px;
+    }
+
+    footer .device-options .volume-slider {
+        width: 105px;
+    }
+
     /* elementi nascosti */
     #control-bar .spotify .logo-big,
     #control-bar .actions li span,
@@ -432,6 +442,16 @@ footer .media {
 
     main .album {
         width: calc(100% / 4 - 10px);
+    }
+
+     /* FOOTER */
+    /* device options */
+    footer .device-options {
+        gap: 15px;
+    }
+
+    footer .device-options .volume-slider {
+        width: 120px;
     }
 
 }
