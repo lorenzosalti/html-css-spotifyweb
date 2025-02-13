@@ -71,14 +71,14 @@ li {
 
 #control-bar .actions li {
     padding: 5px 13px;
-    border: 2px solid #000000;
+    border: 2px solid transparent;
     opacity: 50%;
     width: 100%;
 }
 
-#control-bar .actions li:hover {
+/* #control-bar .actions li:hover {
     border-left: 2px solid #b1f747;
-}
+} */
 
 #control-bar .actions li img {
     max-width: 70px;
@@ -202,11 +202,10 @@ main {
 #top-menu li .underline {
     width: 30px;
     height: 2px;
-    background-color: #151922;
     margin: 0 auto;
 }
 
-#top-menu li:hover .underline {
+#top-menu .highlight .underline {
     background-color: #b1f747;
 }
 
