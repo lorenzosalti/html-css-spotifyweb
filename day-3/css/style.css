@@ -330,6 +330,20 @@ footer {
     padding: 9px 10px;
 }
 
+footer .bar {
+    position: relative;
+}
+
+footer .bar::after {
+    content: '';
+    display: inline-block;
+    height: 4px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
 /* track info */
 footer .track-info {
     display: flex;
@@ -397,6 +411,10 @@ footer .media {
     background-color: #5a5a5a;
 }
 
+#track-bar .bar::after {
+    width: 70px;
+}
+
 /* device options */
 footer .device-options {
     display: flex;
@@ -413,6 +431,10 @@ footer .device-options .volume-slider {
     background-color: #5a5a5a;
 }
 
+footer .device-options .volume-slider::after {
+    width: 40px;
+}
+
 /* FOOTER hover link e pulsanti */
 footer .track-info h4:hover,
 footer .track-info .favorites button:hover {
@@ -427,6 +449,19 @@ footer .track-info a:hover {
     font-size: 32px;
     padding: 0 9px;
 }
+
+footer .bar:hover {
+    cursor: pointer;
+}
+
+footer .bar:hover::after{
+    background-color: #b1f747;
+}
+
+
+/* footer .bar:hover .bar::after {
+    display: inline-block;
+} */
 
 /*** MEDIA QUERY ***/
 /* small */
