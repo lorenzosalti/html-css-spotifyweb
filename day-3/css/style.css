@@ -305,14 +305,8 @@ main .album .img-container:hover .album-hover {
 #control-bar .playlists .button:hover,
 #control-bar .playlists ul li:hover,
 #control-bar .download:hover,
-#top-menu li:hover,
-footer .track-info h4:hover,
-footer .track-info .favorites button:hover {
+#top-menu li:hover {
     opacity: 100%;
-}
-
-footer .track-info a:hover {
-    text-decoration: underline;
 }
 
 #main-header .upgrade:hover {
@@ -333,7 +327,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 9px 10px;
 }
 
 /* track info */
@@ -387,7 +381,7 @@ footer .media {
 
 #play {
     font-size: 30px;
-    padding: 0 10px;
+    padding: 1px 10px;
 }
 
 #track-bar {
@@ -419,6 +413,20 @@ footer .device-options .volume-slider {
     background-color: #5a5a5a;
 }
 
+/* FOOTER hover link e pulsanti */
+footer .track-info h4:hover,
+footer .track-info .favorites button:hover {
+    opacity: 100%;
+}
+
+footer .track-info a:hover {
+    text-decoration: underline;
+}
+
+#play:hover {
+    font-size: 32px;
+    padding: 0 9px;
+}
 
 /*** MEDIA QUERY ***/
 /* small */
