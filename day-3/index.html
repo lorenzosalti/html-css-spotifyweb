@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web</title>
+
+    <!--  Font Awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--  /Font Awesome link  -->
+
+    <!-- Google Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- /Google Font link -->
+      
+    <!--  Foglio di stile principale  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <!-- corpo della pagina -->
+    <div class="container-lg">
+
+        <!-- barra laterale -->
+        <nav id="control-bar">
+
+            <!-- logo -->
+            <div class="spotify">
+                <img class="logo-small" src="../img/logo-small.svg" alt="Spotify">
+                <img class="logo-big" src="../img/logo.svg" alt="Spotify">
+            </div>
+
+            <!-- menu -->
+            <nav class="actions">
+                <ul>
+                    <li class="home">
+                        <a href="#">
+                            <img src="../img/home.svg" alt="Home">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/search.svg" alt="Cerca">
+                            <span>Cerca</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/libreria.svg" alt="La tua libreria">
+                            <span>La tua libreria</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- playlist -->
+            <div class="playlists">
+                <h4>playlists</h4>
+                <a href="#" class="button">
+                    <div class="add"><i class="fa-solid fa-plus"></i></div>
+                    <span>Crea Playlist</span>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Nome Playlist
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Nome Playlist
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Nome Playlist
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Nome Playlist
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Nome Playlist
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- download -->
+            <div class="download">
+                <a href="#">
+                    <img src="../img/download.svg" alt="Installa App">
+                    <span>Installa App</span>
+                </a>
+            </div>
+
+            <hr>
+
+            <!-- profilo -->
+            <div class="user">
+                <a href="#">
+                    <img src="../img/profile.svg" alt="Lorenzo Salti">
+                    <span>Lorenzo Salti</span>
+                </a>
+            </div>
+
+        </nav>
+        <!-- /barra laterale -->
+
+        <!-- contenitore delle sezioni principali -->
+        <main>
+
+            <!-- sezione di testa -->
+            <section id="main-header">
+                <a href="#" class="upgrade">
+                    effettua l'upgrade
+                </a>
+            </section>
+            <!-- /sezione di testa -->
+
+            <!-- sezione centrale -->
+            <!-- menu di navigazione  -->
+            <ul id="top-menu">
+                <li>
+                    <a href="#">in evidenza</a>
+                    <div class="underline"></div>
+                </li>
+                <li>
+                    <a href="#">podcast</a>
+                    <div class="underline"></div>
+                </li>
+                <li>
+                    <a href="#">classifiche</a>
+                    <div class="underline"></div>
+                </li>
+                <li>
+                    <a href="#">generi e mood</a>
+                    <div class="underline"></div>
+                </li>
+                <li>
+                    <a href="#">nuove uscite</a>
+                    <div class="underline"></div>
+                </li>
+                <li>
+                    <a href="#">scopri</a>
+                    <div class="underline"></div>
+                </li>
+            </ul>
+            <!-- /menu di navigazione  -->
+
+            <!-- sezione recently played -->
+            <section class="recent">
+                <div class="section-title">
+                    <h2>Recently Played</h2>
+                </div>
+                <div class="collection">
+                    <a href="#" class="album">
+                        <img src="../img/metal_lifting.jpg" alt="Heavy Metal">
+                        <h3>Heavy Metal</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/stranger.jpeg" alt="Stranger Things">
+                        <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                        <h4>Kyle Dixon & Michael Stein</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/aquietplace.jpeg" alt="A quiet place">
+                        <h3>A quiet place</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/split.jpeg" alt="Split">
+                        <h3>Split</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/cure.jpeg" alt="A cure for wellness">
+                        <h3>A cure for wellness</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/sinister.jpeg" alt="Sinister">
+                        <h3>Sinister</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                </div>
+            </section>
+            <!-- /sezione recently played -->
+
+            <!-- sezione dei per te -->
+            <section class="for-you">
+                <div class="section-title">
+                    <h2>Creato per Lorenzo Salti</h2>
+                    <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                </div>
+                <div class="collection">
+                    <a href="#" class="album">
+                        <img src="../img/radar.jpeg" alt="Il tuo Release Radar">
+                        <h3>Release Radar</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/mixdaily.jpeg" alt="Il tuo Daily Mix 1">
+                        <h3>Daily Mix 1</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                </div>
+            </section>
+            <!-- /sezione dei per te -->
+
+            <!-- sezione artisti -->
+            <section class="artist">
+                <div class="section-title">
+                    <h2>Artisti più popolari</h2>
+                    <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                </div>
+                <div class="collection">
+                    <a href="#" class="album">
+                        <img src="../img/youg.jpeg" alt="Lana Del Rey">
+                        <h3>Lana Del Rey</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                    <a href="#" class="album">
+                        <img src="../img/einaudi.jpeg" alt="Ludovico Einaudi">
+                        <h3>Ludovico Einaudi</h3>
+                        <h4>Subtitle</h4>
+                    </a>
+                </div>
+            </section>
+            <!-- /sezione artisti -->
+
+            <!-- /sezione centrale -->
+
+        </main>
+        <!-- /contenitore delle sezioni principali -->
+
+    </div>
+    <!-- /corpo della pagina -->
+
+    <!-- barra inferiore della pagina -->
+    <footer>
+
+    </footer>
+    <!-- /barra inferiore della pagina -->
+    
+</body>
+</html>
