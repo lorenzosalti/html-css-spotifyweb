@@ -309,10 +309,12 @@ footer {
     padding: 10px;
 }
 
+/* track info */
 footer .track-info {
     display: flex;
     align-items: center;
     font-size: 13px;
+    width: 150px;
 }
 
 footer .track-info .play-title {
@@ -328,7 +330,7 @@ footer .track-info h4 {
 }
 
 footer .track-info .favorites {
-    padding: 12px;
+    margin-left: 12px;
 }
 
 footer .track-info .favorites i:first-child {
@@ -336,6 +338,44 @@ footer .track-info .favorites i:first-child {
     margin-bottom: 5px;
 }
 
+/* media */
+footer .media {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-start;
+    min-width: 190px;
+}
+
+#track-controls {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    width: 190px;
+}
+
+#play {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+#track-bar {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+#track-bar .bar {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #5a5a5a;
+}
+
+/* device options */
 footer .device-options {
     background-color: #59C3C3;
     display: flex;
@@ -343,6 +383,7 @@ footer .device-options {
     align-items: center;
     gap: 5px;
     font-size: 14px;
+    /* width: 150px; */
 }
 
 footer .device-options .volume-slider {
@@ -358,14 +399,12 @@ footer .device-options .volume-slider {
 
 
 
-/* footer .track-info {
+footer .track-info {
     background-color: #52489c;
-} */
+}
 
 footer .media {
     background-color: #4062BB;
-    width: 20%;
-    height: 50px;
 }
 
 
@@ -447,7 +486,7 @@ footer .media {
     }
 
     footer .track-info .favorites {
-        padding: 17px;
+        margin-left: 17px;
     }
 
     /* device options */
@@ -488,7 +527,7 @@ footer .media {
     }
 
     footer .track-info .favorites {
-        padding: 30px;
+        margin-left: 30px;
     }
 
     footer .track-info .favorites i:first-child {
