@@ -31,6 +31,10 @@ button {
     all: unset;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*** CONTENITORE LARGE ***/
 
 /* CONTOL BAR */
@@ -118,10 +122,14 @@ button {
 }
 
 #control-bar .playlists .button,
-#control-bar .playlists ul,
+#control-bar .playlists ul li,
+#control-bar .download,
 #main-header,
+#top-menu li,
 main h4,
-main h5 {
+main h5,
+footer .track-info h4,
+footer .track-info .favorites button {
     opacity: 60%;
 }
 
@@ -130,7 +138,6 @@ main h5 {
 #control-bar .download {
     margin-top: auto;
     padding: 20px 13px;
-    opacity: 60%;
 }
 
 #control-bar .download img {
@@ -172,6 +179,7 @@ main {
 #main-header {
     background-color: #000000;
     padding: 20px;
+    height: 90px;
     padding-left: auto;
     position: sticky;
     top: 0;
@@ -292,6 +300,25 @@ main .album .img-container:hover .album-hover {
     display: flex;
 }
 
+/* hover link e bottoni */
+#control-bar .actions li:hover,
+#control-bar .playlists .button:hover,
+#control-bar .playlists ul li:hover,
+#control-bar .download:hover,
+#top-menu li:hover,
+footer .track-info h4:hover,
+footer .track-info .favorites button:hover {
+    opacity: 100%;
+}
+
+footer .track-info a:hover {
+    text-decoration: underline;
+}
+
+#main-header .upgrade:hover {
+    font-size: 14px;
+}
+
 /* elementi nascosti */
 main .for-you .collection h4,
 main .artist .collection h4 {
@@ -334,7 +361,7 @@ footer .track-info .favorites {
     margin-left: 12px;
 }
 
-footer .track-info .favorites i:first-child {
+footer .track-info .favorites button:first-child {
     display: block;
     margin-bottom: 5px;
 }
@@ -516,7 +543,7 @@ footer .device-options .volume-slider {
         margin-left: 30px;
     }
 
-    footer .track-info .favorites i:first-child {
+    footer .track-info .favorites button:first-child {
         display: inline-block;
         margin-right: 12px;
     }
