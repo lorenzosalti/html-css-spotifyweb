@@ -298,7 +298,29 @@ main .artist .collection h4 {
 footer {
     height: 90px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+footer .track-info {
+    background-color: #52489c;
+    width: 20%;
+    height: 50px;
+}
+
+footer .media {
+    background-color: #4062BB;
+    width: 20%;
+    height: 50px;
+}
+
+footer .device-options {
+    background-color: #59C3C3;
+    width: 20%;
+    height: 50px;
+}
+
 
 
 /*** MEDIA QUERY ***/
