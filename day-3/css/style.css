@@ -319,6 +319,7 @@ footer .track-info {
 
 footer .track-info .play-title {
     padding: 10px;
+    overflow-x: hidden;
 }
 
 footer .track-info img {
@@ -377,13 +378,12 @@ footer .media {
 
 /* device options */
 footer .device-options {
-    background-color: #59C3C3;
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 5px;
     font-size: 14px;
-    /* width: 150px; */
+    width: 150px;
 }
 
 footer .device-options .volume-slider {
@@ -391,28 +391,6 @@ footer .device-options .volume-slider {
     height: 4px;
     background-color: #5a5a5a;
 }
-
-
-
-
-
-
-
-
-footer .track-info {
-    background-color: #52489c;
-}
-
-footer .media {
-    background-color: #4062BB;
-}
-
-
-
-
-
-
-
 
 
 /*** MEDIA QUERY ***/
@@ -481,6 +459,9 @@ footer .media {
 
     /* FOOTER */
     /* track-info */
+    footer .track-info {
+        width: 180px;
+    }
     footer .track-info img {
         max-width: 38px;
     }
@@ -492,6 +473,7 @@ footer .media {
     /* device options */
     footer .device-options {
         gap: 10px;
+        width: 180px;
     }
 
     footer .device-options .volume-slider {
@@ -516,8 +498,12 @@ footer .media {
         width: calc(100% / 4 - 10px);
     }
 
-     /* FOOTER */
-     /* track-info */
+    /* FOOTER */
+    /* track-info */
+    footer .track-info {
+        width: 210px;
+    }
+
     footer .track-info img {
         max-width: 42px;
     }
@@ -538,6 +524,7 @@ footer .media {
     /* device options */
     footer .device-options {
         gap: 15px;
+        width: 210px;
     }
 
     footer .device-options .volume-slider {
