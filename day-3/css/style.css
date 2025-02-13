@@ -306,12 +306,40 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+}
+
+footer .track-info {
+    display: flex;
+    align-items: center;
+}
+
+footer .track-info .play-title {
+    padding: 10px;
+}
+
+footer .track-info img {
+    max-width: 28px;
+}
+
+footer .track-info h3 {
+    font-size: 13px;
+}
+
+footer .track-info h4 {
+    font-size: 11px;
+}
+
+footer .track-info .favorites {
+    padding: 12px;
+}
+
+footer .track-info .favorites i {
+    display: block;
 }
 
 footer .device-options {
     background-color: #59C3C3;
-    /* width: 20%; */
-    padding: 10px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -334,8 +362,6 @@ footer .device-options .volume-slider {
 
 footer .track-info {
     background-color: #52489c;
-    width: 20%;
-    height: 50px;
 }
 
 footer .media {
