@@ -275,6 +275,10 @@ main .album .img-container .album-hover {
     display: none;
 }
 
+main .artist .album .img-container .album-hover {
+    border-radius: 50%;
+}
+
 main .album .img-container:hover .album-hover {
     display: flex;
 }
