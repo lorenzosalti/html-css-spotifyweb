@@ -24,10 +24,12 @@ I was provided three specific deadlines, one for each day spent working on the p
 
 #### Provided screenshots
 
-![Mobile layout](/screenshots/day%201/mobile-day-1.jpg)
+![Mobile layout](/screenshots/day%201/mobile-day-1.jpg)   
+
 Mobile layout
 
-![Desktop layout](/screenshots/day%201/desktop-day-1.jpg.jpg)
+![Desktop layout](/screenshots/day%201/desktop-day-1.jpg)   
+
 Desktop layout
 
 ## Day 2
@@ -44,16 +46,20 @@ Desktop layout
 
 #### Provided screenshots
 
-![XS Breakpoint](/screenshots/day-2/spotify-xs.png)
+![XS Breakpoint](/screenshots/day-2/spotify-xs.png)   
+
 XS Breakpoint layout
 
-![S Breakpoint](/screenshots/day-2/spotify-s.png)
+![S Breakpoint](/screenshots/day-2/spotify-s.png)   
+
 S Breakpoint layout
 
-![MD Breakpoint](/screenshots/day-2/spotify-md.png)
+![MD Breakpoint](/screenshots/day-2/spotify-md.png)   
+
 MD Breakpoint layout
 
-![LG Breakpoint](/screenshots/day-2/spotify-lg.png)
+![LG Breakpoint](/screenshots/day-2/spotify-lg.png)   
+
 LG Breakpoint layout
 
 ## Day 3
@@ -71,14 +77,18 @@ LG Breakpoint layout
 
 #### Provided screenshots
 
-![XS Breakpoint](/screenshots/day-3/spotify-xs.png)
+![XS Breakpoint](/screenshots/day-3/spotify-xs.png)   
+
 XS Breakpoint layout
 
-![S Breakpoint](/screenshots/day-3/spotify-s.png)
+![S Breakpoint](/screenshots/day-3/spotify-s.png)   
+
 S Breakpoint layout
 
-![MD Breakpoint](/screenshots/day-3/spotify-md.png)
+![MD Breakpoint](/screenshots/day-3/spotify-md.png)   
+
 MD Breakpoint layout
 
-![LG Breakpoint](/screenshots/day-3/spotify-lg.png)
+![LG Breakpoint](/screenshots/day-3/spotify-lg.png)   
+
 LG Breakpoint layout
